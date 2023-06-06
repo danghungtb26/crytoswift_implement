@@ -36,6 +36,7 @@ local.properties
 
 # node.js
 #
+!ios/node_modules/weavr_ui_components
 node_modules/
 npm-debug.log
 yarn-error.log

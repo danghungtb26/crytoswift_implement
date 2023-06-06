@@ -11,33 +11,33 @@
 		04CEAF8E2A2EE11C00166A4E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAF8D2A2EE11C00166A4E /* File.swift */; };
 		04CEAFA32A2EE16400166A4E /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEAF982A2EE13C00166A4E /* CryptoSwift.framework */; };
 		04CEAFA42A2EE16400166A4E /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEAF982A2EE13C00166A4E /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04CEAFFC2A2EE34400166A4E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFDD2A2EE34300166A4E /* Errors.swift */; };
-		04CEAFFD2A2EE34400166A4E /* RNEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE32A2EE34300166A4E /* RNEventEmitter.m */; };
-		04CEAFFE2A2EE34400166A4E /* RNEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE42A2EE34300166A4E /* RNEventEmitter.swift */; };
-		04CEAFFF2A2EE34400166A4E /* UxComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE52A2EE34300166A4E /* UxComponents.m */; };
-		04CEB0002A2EE34400166A4E /* UxComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE62A2EE34300166A4E /* UxComponents.swift */; };
-		04CEB0012A2EE34400166A4E /* SecureCardNumberLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE82A2EE34300166A4E /* SecureCardNumberLabelManager.m */; };
-		04CEB0022A2EE34400166A4E /* SecurePasscodeTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE92A2EE34300166A4E /* SecurePasscodeTextFieldManager.swift */; };
-		04CEB0032A2EE34400166A4E /* SecureCardCVVLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEA2A2EE34300166A4E /* SecureCardCVVLabelView.swift */; };
-		04CEB0042A2EE34400166A4E /* SecurePasswordTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEB2A2EE34300166A4E /* SecurePasswordTextFieldManager.swift */; };
-		04CEB0052A2EE34400166A4E /* SecurePasscodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEC2A2EE34300166A4E /* SecurePasscodeTextField.swift */; };
-		04CEB0062A2EE34400166A4E /* SecurePasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFED2A2EE34300166A4E /* SecurePasswordTextField.swift */; };
-		04CEB0072A2EE34400166A4E /* SecurePasscodeTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEE2A2EE34300166A4E /* SecurePasscodeTextFieldManager.m */; };
-		04CEB0082A2EE34400166A4E /* SecureCardPinTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEF2A2EE34300166A4E /* SecureCardPinTextFieldManager.m */; };
-		04CEB0092A2EE34400166A4E /* SecureTextFieldProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF02A2EE34300166A4E /* SecureTextFieldProtocol.swift */; };
-		04CEB00A2A2EE34400166A4E /* SecureCardPinLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF12A2EE34300166A4E /* SecureCardPinLabelManager.m */; };
-		04CEB00B2A2EE34400166A4E /* SecureCardNumberLabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF22A2EE34300166A4E /* SecureCardNumberLabelManager.swift */; };
-		04CEB00C2A2EE34400166A4E /* SecureCardPinTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF32A2EE34300166A4E /* SecureCardPinTextFieldManager.swift */; };
-		04CEB00D2A2EE34400166A4E /* SecurePasswordTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF42A2EE34300166A4E /* SecurePasswordTextFieldManager.m */; };
-		04CEB00E2A2EE34400166A4E /* SecureCardPinLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF52A2EE34300166A4E /* SecureCardPinLabelView.swift */; };
-		04CEB00F2A2EE34400166A4E /* SecureCardCVVLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF62A2EE34300166A4E /* SecureCardCVVLabelManager.m */; };
-		04CEB0102A2EE34400166A4E /* SecureCardPinLabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF72A2EE34300166A4E /* SecureCardPinLabelManager.swift */; };
-		04CEB0112A2EE34400166A4E /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF82A2EE34300166A4E /* UIView+Util.swift */; };
-		04CEB0122A2EE34400166A4E /* SecureCardNumberLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF92A2EE34300166A4E /* SecureCardNumberLabelView.swift */; };
-		04CEB0132A2EE34400166A4E /* SecureCardPinTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFFA2A2EE34300166A4E /* SecureCardPinTextField.swift */; };
-		04CEB0142A2EE34400166A4E /* SecureCardCVVLabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFFB2A2EE34300166A4E /* SecureCardCVVLabelManager.swift */; };
 		04CEB0152A2EF59400166A4E /* WeavrComponents.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEAFA12A2EE15E00166A4E /* WeavrComponents.xcframework */; };
 		04CEB0162A2EF59400166A4E /* WeavrComponents.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEAFA12A2EE15E00166A4E /* WeavrComponents.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04CEB0642A2F1BFC00166A4E /* UxComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB04A2A2F1BFC00166A4E /* UxComponents.m */; };
+		04CEB0652A2F1BFC00166A4E /* RNEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB04B2A2F1BFC00166A4E /* RNEventEmitter.m */; };
+		04CEB0662A2F1BFC00166A4E /* RNEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB04C2A2F1BFC00166A4E /* RNEventEmitter.swift */; };
+		04CEB0672A2F1BFC00166A4E /* SecureCardNumberLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB04E2A2F1BFC00166A4E /* SecureCardNumberLabelManager.m */; };
+		04CEB0682A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB04F2A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.swift */; };
+		04CEB0692A2F1BFC00166A4E /* SecureCardCVVLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0502A2F1BFC00166A4E /* SecureCardCVVLabelView.swift */; };
+		04CEB06A2A2F1BFC00166A4E /* SecurePasswordTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0512A2F1BFC00166A4E /* SecurePasswordTextFieldManager.swift */; };
+		04CEB06B2A2F1BFC00166A4E /* SecurePasscodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0522A2F1BFC00166A4E /* SecurePasscodeTextField.swift */; };
+		04CEB06C2A2F1BFC00166A4E /* SecurePasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0532A2F1BFC00166A4E /* SecurePasswordTextField.swift */; };
+		04CEB06D2A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0542A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.m */; };
+		04CEB06E2A2F1BFC00166A4E /* SecureCardPinTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0552A2F1BFC00166A4E /* SecureCardPinTextFieldManager.m */; };
+		04CEB06F2A2F1BFC00166A4E /* SecureTextFieldProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0562A2F1BFC00166A4E /* SecureTextFieldProtocol.swift */; };
+		04CEB0702A2F1BFC00166A4E /* SecureCardPinLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0572A2F1BFC00166A4E /* SecureCardPinLabelManager.m */; };
+		04CEB0712A2F1BFC00166A4E /* SecureCardNumberLabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0582A2F1BFC00166A4E /* SecureCardNumberLabelManager.swift */; };
+		04CEB0722A2F1BFC00166A4E /* SecureCardPinTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0592A2F1BFC00166A4E /* SecureCardPinTextFieldManager.swift */; };
+		04CEB0732A2F1BFC00166A4E /* SecurePasswordTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB05A2A2F1BFC00166A4E /* SecurePasswordTextFieldManager.m */; };
+		04CEB0742A2F1BFC00166A4E /* SecureCardPinLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB05B2A2F1BFC00166A4E /* SecureCardPinLabelView.swift */; };
+		04CEB0752A2F1BFC00166A4E /* SecureCardCVVLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB05C2A2F1BFC00166A4E /* SecureCardCVVLabelManager.m */; };
+		04CEB0762A2F1BFC00166A4E /* SecureCardPinLabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB05D2A2F1BFC00166A4E /* SecureCardPinLabelManager.swift */; };
+		04CEB0772A2F1BFC00166A4E /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB05E2A2F1BFC00166A4E /* UIView+Util.swift */; };
+		04CEB0782A2F1BFC00166A4E /* SecureCardNumberLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB05F2A2F1BFC00166A4E /* SecureCardNumberLabelView.swift */; };
+		04CEB0792A2F1BFC00166A4E /* SecureCardPinTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0602A2F1BFC00166A4E /* SecureCardPinTextField.swift */; };
+		04CEB07A2A2F1BFC00166A4E /* SecureCardCVVLabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0612A2F1BFC00166A4E /* SecureCardCVVLabelManager.swift */; };
+		04CEB07B2A2F1BFC00166A4E /* UxComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0622A2F1BFC00166A4E /* UxComponents.swift */; };
+		04CEB07C2A2F1BFC00166A4E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEB0632A2F1BFC00166A4E /* Errors.swift */; };
 		0C80B921A6F3F58F76C31292 /* libPods-CryptoLibraryIntegration2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CryptoLibraryIntegration2.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -114,31 +114,31 @@
 		04CEAF8D2A2EE11C00166A4E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		04CEAF8F2A2EE13C00166A4E /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = externals/CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
 		04CEAFA12A2EE15E00166A4E /* WeavrComponents.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WeavrComponents.xcframework; path = externals/WeavrComponents.xcframework; sourceTree = "<group>"; };
-		04CEAFDD2A2EE34300166A4E /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		04CEAFE32A2EE34300166A4E /* RNEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEventEmitter.m; sourceTree = "<group>"; };
-		04CEAFE42A2EE34300166A4E /* RNEventEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNEventEmitter.swift; sourceTree = "<group>"; };
-		04CEAFE52A2EE34300166A4E /* UxComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UxComponents.m; sourceTree = "<group>"; };
-		04CEAFE62A2EE34300166A4E /* UxComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UxComponents.swift; sourceTree = "<group>"; };
-		04CEAFE82A2EE34300166A4E /* SecureCardNumberLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardNumberLabelManager.m; sourceTree = "<group>"; };
-		04CEAFE92A2EE34300166A4E /* SecurePasscodeTextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasscodeTextFieldManager.swift; sourceTree = "<group>"; };
-		04CEAFEA2A2EE34300166A4E /* SecureCardCVVLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardCVVLabelView.swift; sourceTree = "<group>"; };
-		04CEAFEB2A2EE34300166A4E /* SecurePasswordTextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasswordTextFieldManager.swift; sourceTree = "<group>"; };
-		04CEAFEC2A2EE34300166A4E /* SecurePasscodeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasscodeTextField.swift; sourceTree = "<group>"; };
-		04CEAFED2A2EE34300166A4E /* SecurePasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasswordTextField.swift; sourceTree = "<group>"; };
-		04CEAFEE2A2EE34300166A4E /* SecurePasscodeTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurePasscodeTextFieldManager.m; sourceTree = "<group>"; };
-		04CEAFEF2A2EE34300166A4E /* SecureCardPinTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardPinTextFieldManager.m; sourceTree = "<group>"; };
-		04CEAFF02A2EE34300166A4E /* SecureTextFieldProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureTextFieldProtocol.swift; sourceTree = "<group>"; };
-		04CEAFF12A2EE34300166A4E /* SecureCardPinLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardPinLabelManager.m; sourceTree = "<group>"; };
-		04CEAFF22A2EE34300166A4E /* SecureCardNumberLabelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardNumberLabelManager.swift; sourceTree = "<group>"; };
-		04CEAFF32A2EE34300166A4E /* SecureCardPinTextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinTextFieldManager.swift; sourceTree = "<group>"; };
-		04CEAFF42A2EE34300166A4E /* SecurePasswordTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurePasswordTextFieldManager.m; sourceTree = "<group>"; };
-		04CEAFF52A2EE34300166A4E /* SecureCardPinLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinLabelView.swift; sourceTree = "<group>"; };
-		04CEAFF62A2EE34300166A4E /* SecureCardCVVLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardCVVLabelManager.m; sourceTree = "<group>"; };
-		04CEAFF72A2EE34300166A4E /* SecureCardPinLabelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinLabelManager.swift; sourceTree = "<group>"; };
-		04CEAFF82A2EE34300166A4E /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
-		04CEAFF92A2EE34300166A4E /* SecureCardNumberLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardNumberLabelView.swift; sourceTree = "<group>"; };
-		04CEAFFA2A2EE34300166A4E /* SecureCardPinTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinTextField.swift; sourceTree = "<group>"; };
-		04CEAFFB2A2EE34300166A4E /* SecureCardCVVLabelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardCVVLabelManager.swift; sourceTree = "<group>"; };
+		04CEB04A2A2F1BFC00166A4E /* UxComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UxComponents.m; path = node_module/weavr_ui_components/UxComponents.m; sourceTree = SOURCE_ROOT; };
+		04CEB04B2A2F1BFC00166A4E /* RNEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RNEventEmitter.m; path = node_module/weavr_ui_components/RNEventEmitter.m; sourceTree = SOURCE_ROOT; };
+		04CEB04C2A2F1BFC00166A4E /* RNEventEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RNEventEmitter.swift; path = node_module/weavr_ui_components/RNEventEmitter.swift; sourceTree = SOURCE_ROOT; };
+		04CEB04E2A2F1BFC00166A4E /* SecureCardNumberLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardNumberLabelManager.m; sourceTree = "<group>"; };
+		04CEB04F2A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasscodeTextFieldManager.swift; sourceTree = "<group>"; };
+		04CEB0502A2F1BFC00166A4E /* SecureCardCVVLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardCVVLabelView.swift; sourceTree = "<group>"; };
+		04CEB0512A2F1BFC00166A4E /* SecurePasswordTextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasswordTextFieldManager.swift; sourceTree = "<group>"; };
+		04CEB0522A2F1BFC00166A4E /* SecurePasscodeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasscodeTextField.swift; sourceTree = "<group>"; };
+		04CEB0532A2F1BFC00166A4E /* SecurePasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasswordTextField.swift; sourceTree = "<group>"; };
+		04CEB0542A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurePasscodeTextFieldManager.m; sourceTree = "<group>"; };
+		04CEB0552A2F1BFC00166A4E /* SecureCardPinTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardPinTextFieldManager.m; sourceTree = "<group>"; };
+		04CEB0562A2F1BFC00166A4E /* SecureTextFieldProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureTextFieldProtocol.swift; sourceTree = "<group>"; };
+		04CEB0572A2F1BFC00166A4E /* SecureCardPinLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardPinLabelManager.m; sourceTree = "<group>"; };
+		04CEB0582A2F1BFC00166A4E /* SecureCardNumberLabelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardNumberLabelManager.swift; sourceTree = "<group>"; };
+		04CEB0592A2F1BFC00166A4E /* SecureCardPinTextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinTextFieldManager.swift; sourceTree = "<group>"; };
+		04CEB05A2A2F1BFC00166A4E /* SecurePasswordTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurePasswordTextFieldManager.m; sourceTree = "<group>"; };
+		04CEB05B2A2F1BFC00166A4E /* SecureCardPinLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinLabelView.swift; sourceTree = "<group>"; };
+		04CEB05C2A2F1BFC00166A4E /* SecureCardCVVLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardCVVLabelManager.m; sourceTree = "<group>"; };
+		04CEB05D2A2F1BFC00166A4E /* SecureCardPinLabelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinLabelManager.swift; sourceTree = "<group>"; };
+		04CEB05E2A2F1BFC00166A4E /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		04CEB05F2A2F1BFC00166A4E /* SecureCardNumberLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardNumberLabelView.swift; sourceTree = "<group>"; };
+		04CEB0602A2F1BFC00166A4E /* SecureCardPinTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinTextField.swift; sourceTree = "<group>"; };
+		04CEB0612A2F1BFC00166A4E /* SecureCardCVVLabelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardCVVLabelManager.swift; sourceTree = "<group>"; };
+		04CEB0622A2F1BFC00166A4E /* UxComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UxComponents.swift; path = node_module/weavr_ui_components/UxComponents.swift; sourceTree = SOURCE_ROOT; };
+		04CEB0632A2F1BFC00166A4E /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = node_module/weavr_ui_components/Errors.swift; sourceTree = SOURCE_ROOT; };
 		13B07F961A680F5B00A75B9A /* CryptoLibraryIntegration2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoLibraryIntegration2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CryptoLibraryIntegration2/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CryptoLibraryIntegration2/AppDelegate.mm; sourceTree = "<group>"; };
@@ -217,42 +217,43 @@
 		04CEAFA72A2EE17900166A4E /* weavr_ui_components */ = {
 			isa = PBXGroup;
 			children = (
-				04CEAFE72A2EE34300166A4E /* components */,
-				04CEAFDD2A2EE34300166A4E /* Errors.swift */,
-				04CEAFE32A2EE34300166A4E /* RNEventEmitter.m */,
-				04CEAFE42A2EE34300166A4E /* RNEventEmitter.swift */,
-				04CEAFE52A2EE34300166A4E /* UxComponents.m */,
-				04CEAFE62A2EE34300166A4E /* UxComponents.swift */,
+				04CEB04D2A2F1BFC00166A4E /* components */,
+				04CEB0632A2F1BFC00166A4E /* Errors.swift */,
+				04CEB04B2A2F1BFC00166A4E /* RNEventEmitter.m */,
+				04CEB04C2A2F1BFC00166A4E /* RNEventEmitter.swift */,
+				04CEB04A2A2F1BFC00166A4E /* UxComponents.m */,
+				04CEB0622A2F1BFC00166A4E /* UxComponents.swift */,
 			);
 			path = weavr_ui_components;
 			sourceTree = "<group>";
 		};
-		04CEAFE72A2EE34300166A4E /* components */ = {
+		04CEB04D2A2F1BFC00166A4E /* components */ = {
 			isa = PBXGroup;
 			children = (
-				04CEAFE82A2EE34300166A4E /* SecureCardNumberLabelManager.m */,
-				04CEAFE92A2EE34300166A4E /* SecurePasscodeTextFieldManager.swift */,
-				04CEAFEA2A2EE34300166A4E /* SecureCardCVVLabelView.swift */,
-				04CEAFEB2A2EE34300166A4E /* SecurePasswordTextFieldManager.swift */,
-				04CEAFEC2A2EE34300166A4E /* SecurePasscodeTextField.swift */,
-				04CEAFED2A2EE34300166A4E /* SecurePasswordTextField.swift */,
-				04CEAFEE2A2EE34300166A4E /* SecurePasscodeTextFieldManager.m */,
-				04CEAFEF2A2EE34300166A4E /* SecureCardPinTextFieldManager.m */,
-				04CEAFF02A2EE34300166A4E /* SecureTextFieldProtocol.swift */,
-				04CEAFF12A2EE34300166A4E /* SecureCardPinLabelManager.m */,
-				04CEAFF22A2EE34300166A4E /* SecureCardNumberLabelManager.swift */,
-				04CEAFF32A2EE34300166A4E /* SecureCardPinTextFieldManager.swift */,
-				04CEAFF42A2EE34300166A4E /* SecurePasswordTextFieldManager.m */,
-				04CEAFF52A2EE34300166A4E /* SecureCardPinLabelView.swift */,
-				04CEAFF62A2EE34300166A4E /* SecureCardCVVLabelManager.m */,
-				04CEAFF72A2EE34300166A4E /* SecureCardPinLabelManager.swift */,
-				04CEAFF82A2EE34300166A4E /* UIView+Util.swift */,
-				04CEAFF92A2EE34300166A4E /* SecureCardNumberLabelView.swift */,
-				04CEAFFA2A2EE34300166A4E /* SecureCardPinTextField.swift */,
-				04CEAFFB2A2EE34300166A4E /* SecureCardCVVLabelManager.swift */,
+				04CEB04E2A2F1BFC00166A4E /* SecureCardNumberLabelManager.m */,
+				04CEB04F2A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.swift */,
+				04CEB0502A2F1BFC00166A4E /* SecureCardCVVLabelView.swift */,
+				04CEB0512A2F1BFC00166A4E /* SecurePasswordTextFieldManager.swift */,
+				04CEB0522A2F1BFC00166A4E /* SecurePasscodeTextField.swift */,
+				04CEB0532A2F1BFC00166A4E /* SecurePasswordTextField.swift */,
+				04CEB0542A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.m */,
+				04CEB0552A2F1BFC00166A4E /* SecureCardPinTextFieldManager.m */,
+				04CEB0562A2F1BFC00166A4E /* SecureTextFieldProtocol.swift */,
+				04CEB0572A2F1BFC00166A4E /* SecureCardPinLabelManager.m */,
+				04CEB0582A2F1BFC00166A4E /* SecureCardNumberLabelManager.swift */,
+				04CEB0592A2F1BFC00166A4E /* SecureCardPinTextFieldManager.swift */,
+				04CEB05A2A2F1BFC00166A4E /* SecurePasswordTextFieldManager.m */,
+				04CEB05B2A2F1BFC00166A4E /* SecureCardPinLabelView.swift */,
+				04CEB05C2A2F1BFC00166A4E /* SecureCardCVVLabelManager.m */,
+				04CEB05D2A2F1BFC00166A4E /* SecureCardPinLabelManager.swift */,
+				04CEB05E2A2F1BFC00166A4E /* UIView+Util.swift */,
+				04CEB05F2A2F1BFC00166A4E /* SecureCardNumberLabelView.swift */,
+				04CEB0602A2F1BFC00166A4E /* SecureCardPinTextField.swift */,
+				04CEB0612A2F1BFC00166A4E /* SecureCardCVVLabelManager.swift */,
 			);
-			path = components;
-			sourceTree = "<group>";
+			name = components;
+			path = node_module/weavr_ui_components/components;
+			sourceTree = SOURCE_ROOT;
 		};
 		13B07FAE1A68108700A75B9A /* CryptoLibraryIntegration2 */ = {
 			isa = PBXGroup;
@@ -633,34 +634,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CEB0092A2EE34400166A4E /* SecureTextFieldProtocol.swift in Sources */,
-				04CEB0002A2EE34400166A4E /* UxComponents.swift in Sources */,
-				04CEB0072A2EE34400166A4E /* SecurePasscodeTextFieldManager.m in Sources */,
-				04CEAFFD2A2EE34400166A4E /* RNEventEmitter.m in Sources */,
-				04CEB0052A2EE34400166A4E /* SecurePasscodeTextField.swift in Sources */,
-				04CEB0062A2EE34400166A4E /* SecurePasswordTextField.swift in Sources */,
-				04CEAFFF2A2EE34400166A4E /* UxComponents.m in Sources */,
-				04CEB00B2A2EE34400166A4E /* SecureCardNumberLabelManager.swift in Sources */,
-				04CEB00A2A2EE34400166A4E /* SecureCardPinLabelManager.m in Sources */,
-				04CEB0082A2EE34400166A4E /* SecureCardPinTextFieldManager.m in Sources */,
-				04CEAFFE2A2EE34400166A4E /* RNEventEmitter.swift in Sources */,
-				04CEB0032A2EE34400166A4E /* SecureCardCVVLabelView.swift in Sources */,
-				04CEB00D2A2EE34400166A4E /* SecurePasswordTextFieldManager.m in Sources */,
-				04CEB0012A2EE34400166A4E /* SecureCardNumberLabelManager.m in Sources */,
-				04CEB00E2A2EE34400166A4E /* SecureCardPinLabelView.swift in Sources */,
-				04CEAFFC2A2EE34400166A4E /* Errors.swift in Sources */,
-				04CEB00C2A2EE34400166A4E /* SecureCardPinTextFieldManager.swift in Sources */,
+				04CEB0772A2F1BFC00166A4E /* UIView+Util.swift in Sources */,
+				04CEB06D2A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.m in Sources */,
+				04CEB0652A2F1BFC00166A4E /* RNEventEmitter.m in Sources */,
+				04CEB06A2A2F1BFC00166A4E /* SecurePasswordTextFieldManager.swift in Sources */,
+				04CEB0662A2F1BFC00166A4E /* RNEventEmitter.swift in Sources */,
+				04CEB0722A2F1BFC00166A4E /* SecureCardPinTextFieldManager.swift in Sources */,
+				04CEB06C2A2F1BFC00166A4E /* SecurePasswordTextField.swift in Sources */,
+				04CEB0782A2F1BFC00166A4E /* SecureCardNumberLabelView.swift in Sources */,
+				04CEB0742A2F1BFC00166A4E /* SecureCardPinLabelView.swift in Sources */,
+				04CEB0642A2F1BFC00166A4E /* UxComponents.m in Sources */,
+				04CEB06B2A2F1BFC00166A4E /* SecurePasscodeTextField.swift in Sources */,
+				04CEB07A2A2F1BFC00166A4E /* SecureCardCVVLabelManager.swift in Sources */,
+				04CEB0692A2F1BFC00166A4E /* SecureCardCVVLabelView.swift in Sources */,
+				04CEB0752A2F1BFC00166A4E /* SecureCardCVVLabelManager.m in Sources */,
+				04CEB06F2A2F1BFC00166A4E /* SecureTextFieldProtocol.swift in Sources */,
+				04CEB07B2A2F1BFC00166A4E /* UxComponents.swift in Sources */,
+				04CEB0702A2F1BFC00166A4E /* SecureCardPinLabelManager.m in Sources */,
+				04CEB0732A2F1BFC00166A4E /* SecurePasswordTextFieldManager.m in Sources */,
+				04CEB06E2A2F1BFC00166A4E /* SecureCardPinTextFieldManager.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
-				04CEB00F2A2EE34400166A4E /* SecureCardCVVLabelManager.m in Sources */,
+				04CEB07C2A2F1BFC00166A4E /* Errors.swift in Sources */,
+				04CEB0682A2F1BFC00166A4E /* SecurePasscodeTextFieldManager.swift in Sources */,
+				04CEB0762A2F1BFC00166A4E /* SecureCardPinLabelManager.swift in Sources */,
 				04CEAF8E2A2EE11C00166A4E /* File.swift in Sources */,
-				04CEB0042A2EE34400166A4E /* SecurePasswordTextFieldManager.swift in Sources */,
-				04CEB0142A2EE34400166A4E /* SecureCardCVVLabelManager.swift in Sources */,
-				04CEB0132A2EE34400166A4E /* SecureCardPinTextField.swift in Sources */,
-				04CEB0112A2EE34400166A4E /* UIView+Util.swift in Sources */,
-				04CEB0102A2EE34400166A4E /* SecureCardPinLabelManager.swift in Sources */,
-				04CEB0122A2EE34400166A4E /* SecureCardNumberLabelView.swift in Sources */,
-				04CEB0022A2EE34400166A4E /* SecurePasscodeTextFieldManager.swift in Sources */,
+				04CEB0792A2F1BFC00166A4E /* SecureCardPinTextField.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				04CEB0712A2F1BFC00166A4E /* SecureCardNumberLabelManager.swift in Sources */,
+				04CEB0672A2F1BFC00166A4E /* SecureCardNumberLabelManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
