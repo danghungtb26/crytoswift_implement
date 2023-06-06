@@ -1,0 +1,3 @@
+[submodule "ios/externals/CryptoSwiftremote"]
+	path = ios/externals/CryptoSwiftremote
+	url = https://github.com/krzyzanowskim/CryptoSwift.git

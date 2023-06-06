@@ -1,0 +1,955 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* CryptoLibraryIntegration2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CryptoLibraryIntegration2Tests.m */; };
+		04CEAF8E2A2EE11C00166A4E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAF8D2A2EE11C00166A4E /* File.swift */; };
+		04CEAFA32A2EE16400166A4E /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEAF982A2EE13C00166A4E /* CryptoSwift.framework */; };
+		04CEAFA42A2EE16400166A4E /* CryptoSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEAF982A2EE13C00166A4E /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04CEAFFC2A2EE34400166A4E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFDD2A2EE34300166A4E /* Errors.swift */; };
+		04CEAFFD2A2EE34400166A4E /* RNEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE32A2EE34300166A4E /* RNEventEmitter.m */; };
+		04CEAFFE2A2EE34400166A4E /* RNEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE42A2EE34300166A4E /* RNEventEmitter.swift */; };
+		04CEAFFF2A2EE34400166A4E /* UxComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE52A2EE34300166A4E /* UxComponents.m */; };
+		04CEB0002A2EE34400166A4E /* UxComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE62A2EE34300166A4E /* UxComponents.swift */; };
+		04CEB0012A2EE34400166A4E /* SecureCardNumberLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE82A2EE34300166A4E /* SecureCardNumberLabelManager.m */; };
+		04CEB0022A2EE34400166A4E /* SecurePasscodeTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFE92A2EE34300166A4E /* SecurePasscodeTextFieldManager.swift */; };
+		04CEB0032A2EE34400166A4E /* SecureCardCVVLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEA2A2EE34300166A4E /* SecureCardCVVLabelView.swift */; };
+		04CEB0042A2EE34400166A4E /* SecurePasswordTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEB2A2EE34300166A4E /* SecurePasswordTextFieldManager.swift */; };
+		04CEB0052A2EE34400166A4E /* SecurePasscodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEC2A2EE34300166A4E /* SecurePasscodeTextField.swift */; };
+		04CEB0062A2EE34400166A4E /* SecurePasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFED2A2EE34300166A4E /* SecurePasswordTextField.swift */; };
+		04CEB0072A2EE34400166A4E /* SecurePasscodeTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEE2A2EE34300166A4E /* SecurePasscodeTextFieldManager.m */; };
+		04CEB0082A2EE34400166A4E /* SecureCardPinTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFEF2A2EE34300166A4E /* SecureCardPinTextFieldManager.m */; };
+		04CEB0092A2EE34400166A4E /* SecureTextFieldProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF02A2EE34300166A4E /* SecureTextFieldProtocol.swift */; };
+		04CEB00A2A2EE34400166A4E /* SecureCardPinLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF12A2EE34300166A4E /* SecureCardPinLabelManager.m */; };
+		04CEB00B2A2EE34400166A4E /* SecureCardNumberLabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF22A2EE34300166A4E /* SecureCardNumberLabelManager.swift */; };
+		04CEB00C2A2EE34400166A4E /* SecureCardPinTextFieldManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF32A2EE34300166A4E /* SecureCardPinTextFieldManager.swift */; };
+		04CEB00D2A2EE34400166A4E /* SecurePasswordTextFieldManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF42A2EE34300166A4E /* SecurePasswordTextFieldManager.m */; };
+		04CEB00E2A2EE34400166A4E /* SecureCardPinLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF52A2EE34300166A4E /* SecureCardPinLabelView.swift */; };
+		04CEB00F2A2EE34400166A4E /* SecureCardCVVLabelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF62A2EE34300166A4E /* SecureCardCVVLabelManager.m */; };
+		04CEB0102A2EE34400166A4E /* SecureCardPinLabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF72A2EE34300166A4E /* SecureCardPinLabelManager.swift */; };
+		04CEB0112A2EE34400166A4E /* UIView+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF82A2EE34300166A4E /* UIView+Util.swift */; };
+		04CEB0122A2EE34400166A4E /* SecureCardNumberLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFF92A2EE34300166A4E /* SecureCardNumberLabelView.swift */; };
+		04CEB0132A2EE34400166A4E /* SecureCardPinTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFFA2A2EE34300166A4E /* SecureCardPinTextField.swift */; };
+		04CEB0142A2EE34400166A4E /* SecureCardCVVLabelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CEAFFB2A2EE34300166A4E /* SecureCardCVVLabelManager.swift */; };
+		04CEB0152A2EF59400166A4E /* WeavrComponents.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEAFA12A2EE15E00166A4E /* WeavrComponents.xcframework */; };
+		04CEB0162A2EF59400166A4E /* WeavrComponents.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04CEAFA12A2EE15E00166A4E /* WeavrComponents.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C80B921A6F3F58F76C31292 /* libPods-CryptoLibraryIntegration2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CryptoLibraryIntegration2.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		7699B88040F8A987B510C191 /* libPods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = CryptoLibraryIntegration2;
+		};
+		04CEAF972A2EE13C00166A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEAF8F2A2EE13C00166A4E /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		04CEAF992A2EE13C00166A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEAF8F2A2EE13C00166A4E /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75211F92207249D8004E41F8;
+			remoteInfo = "CryptoSwift-TestHostApp";
+		};
+		04CEAF9B2A2EE13C00166A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEAF8F2A2EE13C00166A4E /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = CryptoSwiftTests;
+		};
+		04CEAF9D2A2EE13C00166A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEAF8F2A2EE13C00166A4E /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7595C14A2072E48C00EA1A5F;
+			remoteInfo = "TestsPerformance-Mac";
+		};
+		04CEAF9F2A2EE13C00166A4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CEAF8F2A2EE13C00166A4E /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7564F0602072EAEB00CA5A96;
+			remoteInfo = "TestsPerformance-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04CEAFA52A2EE16500166A4E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04CEAFA42A2EE16400166A4E /* CryptoSwift.framework in Embed Frameworks */,
+				04CEB0162A2EF59400166A4E /* WeavrComponents.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* CryptoLibraryIntegration2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoLibraryIntegration2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* CryptoLibraryIntegration2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptoLibraryIntegration2Tests.m; sourceTree = "<group>"; };
+		04CEAF8C2A2EE11C00166A4E /* CryptoLibraryIntegration2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CryptoLibraryIntegration2-Bridging-Header.h"; sourceTree = "<group>"; };
+		04CEAF8D2A2EE11C00166A4E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		04CEAF8F2A2EE13C00166A4E /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = externals/CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
+		04CEAFA12A2EE15E00166A4E /* WeavrComponents.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = WeavrComponents.xcframework; path = externals/WeavrComponents.xcframework; sourceTree = "<group>"; };
+		04CEAFDD2A2EE34300166A4E /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		04CEAFE32A2EE34300166A4E /* RNEventEmitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEventEmitter.m; sourceTree = "<group>"; };
+		04CEAFE42A2EE34300166A4E /* RNEventEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNEventEmitter.swift; sourceTree = "<group>"; };
+		04CEAFE52A2EE34300166A4E /* UxComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UxComponents.m; sourceTree = "<group>"; };
+		04CEAFE62A2EE34300166A4E /* UxComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UxComponents.swift; sourceTree = "<group>"; };
+		04CEAFE82A2EE34300166A4E /* SecureCardNumberLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardNumberLabelManager.m; sourceTree = "<group>"; };
+		04CEAFE92A2EE34300166A4E /* SecurePasscodeTextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasscodeTextFieldManager.swift; sourceTree = "<group>"; };
+		04CEAFEA2A2EE34300166A4E /* SecureCardCVVLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardCVVLabelView.swift; sourceTree = "<group>"; };
+		04CEAFEB2A2EE34300166A4E /* SecurePasswordTextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasswordTextFieldManager.swift; sourceTree = "<group>"; };
+		04CEAFEC2A2EE34300166A4E /* SecurePasscodeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasscodeTextField.swift; sourceTree = "<group>"; };
+		04CEAFED2A2EE34300166A4E /* SecurePasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurePasswordTextField.swift; sourceTree = "<group>"; };
+		04CEAFEE2A2EE34300166A4E /* SecurePasscodeTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurePasscodeTextFieldManager.m; sourceTree = "<group>"; };
+		04CEAFEF2A2EE34300166A4E /* SecureCardPinTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardPinTextFieldManager.m; sourceTree = "<group>"; };
+		04CEAFF02A2EE34300166A4E /* SecureTextFieldProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureTextFieldProtocol.swift; sourceTree = "<group>"; };
+		04CEAFF12A2EE34300166A4E /* SecureCardPinLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardPinLabelManager.m; sourceTree = "<group>"; };
+		04CEAFF22A2EE34300166A4E /* SecureCardNumberLabelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardNumberLabelManager.swift; sourceTree = "<group>"; };
+		04CEAFF32A2EE34300166A4E /* SecureCardPinTextFieldManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinTextFieldManager.swift; sourceTree = "<group>"; };
+		04CEAFF42A2EE34300166A4E /* SecurePasswordTextFieldManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurePasswordTextFieldManager.m; sourceTree = "<group>"; };
+		04CEAFF52A2EE34300166A4E /* SecureCardPinLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinLabelView.swift; sourceTree = "<group>"; };
+		04CEAFF62A2EE34300166A4E /* SecureCardCVVLabelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecureCardCVVLabelManager.m; sourceTree = "<group>"; };
+		04CEAFF72A2EE34300166A4E /* SecureCardPinLabelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinLabelManager.swift; sourceTree = "<group>"; };
+		04CEAFF82A2EE34300166A4E /* UIView+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
+		04CEAFF92A2EE34300166A4E /* SecureCardNumberLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardNumberLabelView.swift; sourceTree = "<group>"; };
+		04CEAFFA2A2EE34300166A4E /* SecureCardPinTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardPinTextField.swift; sourceTree = "<group>"; };
+		04CEAFFB2A2EE34300166A4E /* SecureCardCVVLabelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureCardCVVLabelManager.swift; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* CryptoLibraryIntegration2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoLibraryIntegration2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CryptoLibraryIntegration2/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = CryptoLibraryIntegration2/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CryptoLibraryIntegration2/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CryptoLibraryIntegration2/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CryptoLibraryIntegration2/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-CryptoLibraryIntegration2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLibraryIntegration2.debug.xcconfig"; path = "Target Support Files/Pods-CryptoLibraryIntegration2/Pods-CryptoLibraryIntegration2.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-CryptoLibraryIntegration2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLibraryIntegration2.release.xcconfig"; path = "Target Support Files/Pods-CryptoLibraryIntegration2/Pods-CryptoLibraryIntegration2.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.debug.xcconfig"; path = "Target Support Files/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-CryptoLibraryIntegration2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CryptoLibraryIntegration2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CryptoLibraryIntegration2/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.release.xcconfig"; path = "Target Support Files/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7699B88040F8A987B510C191 /* libPods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEB0152A2EF59400166A4E /* WeavrComponents.xcframework in Frameworks */,
+				04CEAFA32A2EE16400166A4E /* CryptoSwift.framework in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-CryptoLibraryIntegration2.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* CryptoLibraryIntegration2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* CryptoLibraryIntegration2Tests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = CryptoLibraryIntegration2Tests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CEAF902A2EE13C00166A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CEAF982A2EE13C00166A4E /* CryptoSwift.framework */,
+				04CEAF9A2A2EE13C00166A4E /* CryptoSwift-TestHostApp.app */,
+				04CEAF9C2A2EE13C00166A4E /* CryptoSwiftTests.xctest */,
+				04CEAF9E2A2EE13C00166A4E /* TestsPerformance-Mac.xctest */,
+				04CEAFA02A2EE13C00166A4E /* TestsPerformance-iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CEAFA62A2EE16F00166A4E /* node_modules */ = {
+			isa = PBXGroup;
+			children = (
+				04CEAFA72A2EE17900166A4E /* weavr_ui_components */,
+			);
+			path = node_modules;
+			sourceTree = "<group>";
+		};
+		04CEAFA72A2EE17900166A4E /* weavr_ui_components */ = {
+			isa = PBXGroup;
+			children = (
+				04CEAFE72A2EE34300166A4E /* components */,
+				04CEAFDD2A2EE34300166A4E /* Errors.swift */,
+				04CEAFE32A2EE34300166A4E /* RNEventEmitter.m */,
+				04CEAFE42A2EE34300166A4E /* RNEventEmitter.swift */,
+				04CEAFE52A2EE34300166A4E /* UxComponents.m */,
+				04CEAFE62A2EE34300166A4E /* UxComponents.swift */,
+			);
+			path = weavr_ui_components;
+			sourceTree = "<group>";
+		};
+		04CEAFE72A2EE34300166A4E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				04CEAFE82A2EE34300166A4E /* SecureCardNumberLabelManager.m */,
+				04CEAFE92A2EE34300166A4E /* SecurePasscodeTextFieldManager.swift */,
+				04CEAFEA2A2EE34300166A4E /* SecureCardCVVLabelView.swift */,
+				04CEAFEB2A2EE34300166A4E /* SecurePasswordTextFieldManager.swift */,
+				04CEAFEC2A2EE34300166A4E /* SecurePasscodeTextField.swift */,
+				04CEAFED2A2EE34300166A4E /* SecurePasswordTextField.swift */,
+				04CEAFEE2A2EE34300166A4E /* SecurePasscodeTextFieldManager.m */,
+				04CEAFEF2A2EE34300166A4E /* SecureCardPinTextFieldManager.m */,
+				04CEAFF02A2EE34300166A4E /* SecureTextFieldProtocol.swift */,
+				04CEAFF12A2EE34300166A4E /* SecureCardPinLabelManager.m */,
+				04CEAFF22A2EE34300166A4E /* SecureCardNumberLabelManager.swift */,
+				04CEAFF32A2EE34300166A4E /* SecureCardPinTextFieldManager.swift */,
+				04CEAFF42A2EE34300166A4E /* SecurePasswordTextFieldManager.m */,
+				04CEAFF52A2EE34300166A4E /* SecureCardPinLabelView.swift */,
+				04CEAFF62A2EE34300166A4E /* SecureCardCVVLabelManager.m */,
+				04CEAFF72A2EE34300166A4E /* SecureCardPinLabelManager.swift */,
+				04CEAFF82A2EE34300166A4E /* UIView+Util.swift */,
+				04CEAFF92A2EE34300166A4E /* SecureCardNumberLabelView.swift */,
+				04CEAFFA2A2EE34300166A4E /* SecureCardPinTextField.swift */,
+				04CEAFFB2A2EE34300166A4E /* SecureCardCVVLabelManager.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* CryptoLibraryIntegration2 */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				04CEAF8D2A2EE11C00166A4E /* File.swift */,
+				04CEAF8C2A2EE11C00166A4E /* CryptoLibraryIntegration2-Bridging-Header.h */,
+			);
+			name = CryptoLibraryIntegration2;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04CEAFA12A2EE15E00166A4E /* WeavrComponents.xcframework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-CryptoLibraryIntegration2.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				04CEAFA62A2EE16F00166A4E /* node_modules */,
+				04CEAF8F2A2EE13C00166A4E /* CryptoSwift.xcodeproj */,
+				13B07FAE1A68108700A75B9A /* CryptoLibraryIntegration2 */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* CryptoLibraryIntegration2Tests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* CryptoLibraryIntegration2.app */,
+				00E356EE1AD99517003FC87E /* CryptoLibraryIntegration2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-CryptoLibraryIntegration2.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-CryptoLibraryIntegration2.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* CryptoLibraryIntegration2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CryptoLibraryIntegration2Tests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = CryptoLibraryIntegration2Tests;
+			productName = CryptoLibraryIntegration2Tests;
+			productReference = 00E356EE1AD99517003FC87E /* CryptoLibraryIntegration2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* CryptoLibraryIntegration2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CryptoLibraryIntegration2" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				04CEAFA52A2EE16500166A4E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoLibraryIntegration2;
+			productName = CryptoLibraryIntegration2;
+			productReference = 13B07F961A680F5B00A75B9A /* CryptoLibraryIntegration2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CryptoLibraryIntegration2" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04CEAF902A2EE13C00166A4E /* Products */;
+					ProjectRef = 04CEAF8F2A2EE13C00166A4E /* CryptoSwift.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* CryptoLibraryIntegration2 */,
+				00E356ED1AD99517003FC87E /* CryptoLibraryIntegration2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04CEAF982A2EE13C00166A4E /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = 04CEAF972A2EE13C00166A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04CEAF9A2A2EE13C00166A4E /* CryptoSwift-TestHostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CryptoSwift-TestHostApp.app";
+			remoteRef = 04CEAF992A2EE13C00166A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04CEAF9C2A2EE13C00166A4E /* CryptoSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CryptoSwiftTests.xctest;
+			remoteRef = 04CEAF9B2A2EE13C00166A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04CEAF9E2A2EE13C00166A4E /* TestsPerformance-Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-Mac.xctest";
+			remoteRef = 04CEAF9D2A2EE13C00166A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04CEAFA02A2EE13C00166A4E /* TestsPerformance-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-iOS.xctest";
+			remoteRef = 04CEAF9F2A2EE13C00166A4E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2/Pods-CryptoLibraryIntegration2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2/Pods-CryptoLibraryIntegration2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2/Pods-CryptoLibraryIntegration2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoLibraryIntegration2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2/Pods-CryptoLibraryIntegration2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2/Pods-CryptoLibraryIntegration2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2/Pods-CryptoLibraryIntegration2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests/Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* CryptoLibraryIntegration2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CEB0092A2EE34400166A4E /* SecureTextFieldProtocol.swift in Sources */,
+				04CEB0002A2EE34400166A4E /* UxComponents.swift in Sources */,
+				04CEB0072A2EE34400166A4E /* SecurePasscodeTextFieldManager.m in Sources */,
+				04CEAFFD2A2EE34400166A4E /* RNEventEmitter.m in Sources */,
+				04CEB0052A2EE34400166A4E /* SecurePasscodeTextField.swift in Sources */,
+				04CEB0062A2EE34400166A4E /* SecurePasswordTextField.swift in Sources */,
+				04CEAFFF2A2EE34400166A4E /* UxComponents.m in Sources */,
+				04CEB00B2A2EE34400166A4E /* SecureCardNumberLabelManager.swift in Sources */,
+				04CEB00A2A2EE34400166A4E /* SecureCardPinLabelManager.m in Sources */,
+				04CEB0082A2EE34400166A4E /* SecureCardPinTextFieldManager.m in Sources */,
+				04CEAFFE2A2EE34400166A4E /* RNEventEmitter.swift in Sources */,
+				04CEB0032A2EE34400166A4E /* SecureCardCVVLabelView.swift in Sources */,
+				04CEB00D2A2EE34400166A4E /* SecurePasswordTextFieldManager.m in Sources */,
+				04CEB0012A2EE34400166A4E /* SecureCardNumberLabelManager.m in Sources */,
+				04CEB00E2A2EE34400166A4E /* SecureCardPinLabelView.swift in Sources */,
+				04CEAFFC2A2EE34400166A4E /* Errors.swift in Sources */,
+				04CEB00C2A2EE34400166A4E /* SecureCardPinTextFieldManager.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				04CEB00F2A2EE34400166A4E /* SecureCardCVVLabelManager.m in Sources */,
+				04CEAF8E2A2EE11C00166A4E /* File.swift in Sources */,
+				04CEB0042A2EE34400166A4E /* SecurePasswordTextFieldManager.swift in Sources */,
+				04CEB0142A2EE34400166A4E /* SecureCardCVVLabelManager.swift in Sources */,
+				04CEB0132A2EE34400166A4E /* SecureCardPinTextField.swift in Sources */,
+				04CEB0112A2EE34400166A4E /* UIView+Util.swift in Sources */,
+				04CEB0102A2EE34400166A4E /* SecureCardPinLabelManager.swift in Sources */,
+				04CEB0122A2EE34400166A4E /* SecureCardNumberLabelView.swift in Sources */,
+				04CEB0022A2EE34400166A4E /* SecurePasscodeTextFieldManager.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* CryptoLibraryIntegration2 */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CryptoLibraryIntegration2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoLibraryIntegration2.app/CryptoLibraryIntegration2";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-CryptoLibraryIntegration2-CryptoLibraryIntegration2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = CryptoLibraryIntegration2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CryptoLibraryIntegration2.app/CryptoLibraryIntegration2";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-CryptoLibraryIntegration2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = CryptoLibraryIntegration2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CryptoLibraryIntegration2;
+				SWIFT_OBJC_BRIDGING_HEADER = "CryptoLibraryIntegration2-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-CryptoLibraryIntegration2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = CryptoLibraryIntegration2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = CryptoLibraryIntegration2;
+				SWIFT_OBJC_BRIDGING_HEADER = "CryptoLibraryIntegration2-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CryptoLibraryIntegration2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CryptoLibraryIntegration2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "CryptoLibraryIntegration2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

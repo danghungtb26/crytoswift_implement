@@ -1,0 +1,294 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name WeavrComponents
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CryptoSwift
+import FccAbstractCore
+import FlutterCommunicationChannel
+import Foundation
+@_exported import PSA
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class OkayWrapper {
+  public func initialize(psaEnv: WeavrComponents.PsaENV)
+  public func updateDeviceToken(deviceToken: Swift.String)
+  public func checkIsReadyForEnrollment() -> Swift.Bool
+  public func checkDeviceIsEnrolled() -> Swift.Bool
+  public func checkReadyForAuth() -> Swift.Bool
+  public func startChallenge(userInfo: [Swift.AnyHashable : Any], with: PSACommon.PSATheme?, resourceProvider: PSA.ResourceProvider?, loaderViewController: UIKit.UIViewController?, completion: @escaping (Swift.Bool, WeavrComponents.WeavrPSASharedStatus) -> Swift.Void)
+  public func startChallenge(userInfo: [Swift.AnyHashable : Any], completion: @escaping (Swift.Bool, WeavrComponents.WeavrPSASharedStatus) -> Swift.Void)
+  public func startEnrollment(vc: UIKit.UIViewController, token: Swift.String, resourceProvider: PSA.ResourceProvider? = nil, completion: @escaping (WeavrComponents.WeavrResult<Swift.String?, WeavrComponents.ErrorResponse>) -> Swift.Void)
+  public func initiateBiometric(completion: @escaping (WeavrComponents.WeavrResult<Swift.String?, WeavrComponents.ErrorResponse>) -> Swift.Void)
+  @objc deinit
+}
+public enum WeavrPSASharedStatus : Swift.Int {
+  case SensitiveDataDecryptionError
+  case HasActiveSession
+  case NoAPNSToken
+  case NotEnrolled
+  case InternalLogicError
+  case InternalCommonError
+  case ExpiredTransaction
+  case TimeOutError
+  case NoInternetError
+  case Undefined
+  case Success
+  case InvalidUserInfo
+  case InvalidSessionID
+  case InvalidChallengeStatus
+  case Declined
+  public func statusMessage() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers open class LinkingRes : Swift.Codable {
+  final public let linkingCode: Swift.String?
+  @objc deinit
+  open func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class SecureCVVLabel : WeavrComponents.SecureLabel {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open func setTokeniseText(toDetokenise: Swift.String, callback: ((WeavrComponents.WeavrResult<Swift.String?, WeavrComponents.ErrorResponse>) -> Swift.Void)? = nil)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class SecurePasswordField : WeavrComponents.SecureTextField {
+  @_Concurrency.MainActor(unsafe) open func setup()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@frozen public enum WeavrResult<Success, Failure> {
+  case success(Success)
+  case failure(Failure)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class SecureCardPinLabel : WeavrComponents.SecureLabel {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open func setTokeniseText(toDetokenise: Swift.String, callback: ((WeavrComponents.WeavrResult<Swift.String?, WeavrComponents.ErrorResponse>) -> Swift.Void)? = nil)
+  @objc deinit
+}
+public enum SecureFieldType {
+  case Password
+  case Passcode
+  case CardPin
+  public static func == (a: WeavrComponents.SecureFieldType, b: WeavrComponents.SecureFieldType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class SecureTextField : UIKit.UITextField {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var attributedText: Foundation.NSAttributedString? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSecureTextEntry: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var keyboardType: UIKit.UIKeyboardType {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public func createToken(callBack: @escaping (WeavrComponents.WeavrResult<[Swift.String : Swift.String?], WeavrComponents.ErrorResponse>) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) open var uiKey: Swift.String {
+    get
+    set
+  }
+  @objc deinit
+}
+extension WeavrComponents.SecureTextField : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor(unsafe) public func textField(_ textField: WeavrComponents.SecureTextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+}
+extension WeavrComponents.SecureTextField {
+  @_Concurrency.MainActor(unsafe) open func addDoneButtonOnKeyboard()
+}
+public enum PsaENV {
+  case PRODUCTION
+  case SANDBOX
+  public static func == (a: WeavrComponents.PsaENV, b: WeavrComponents.PsaENV) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ENV {
+  case PRODUCTION
+  case SANDBOX
+  public static func == (a: WeavrComponents.ENV, b: WeavrComponents.ENV) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers open class AppConstants {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class UXComponents {
+  public static func initialize(env: WeavrComponents.ENV, uiKey: Swift.String)
+  public static func clearUXComponentsCache()
+  public static func setUserToken(token: Swift.String, completion: @escaping (WeavrComponents.WeavrResult<Swift.String, WeavrComponents.ErrorResponse>) -> Swift.Void)
+  public static func createGroup(components: [WeavrComponents.SecureTextField]) -> WeavrComponents.UXComponetGroup
+  public static func isAssociated() -> Swift.Bool
+  public static func resetAssociation() -> Swift.Bool
+  public static let psa: WeavrComponents.OkayWrapper
+  public static func getDeviceFingerprint() -> Swift.String?
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class SecureCardNumberLabel : WeavrComponents.SecureLabel {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) open func setTokeniseText(toDetokenise: Swift.String, callback: ((WeavrComponents.WeavrResult<Swift.String?, WeavrComponents.ErrorResponse>) -> Swift.Void)? = nil)
+  @objc deinit
+}
+public protocol UXComponetGroupProtocol {
+  func createToken(fieldKeys: [Swift.String], callBack: @escaping (WeavrComponents.WeavrResult<[Swift.String : Swift.String?], WeavrComponents.ErrorResponse>) -> Swift.Void)
+  func match() -> Swift.Bool
+  func addComponents(components: [WeavrComponents.SecureTextField])
+  func removeComponents(components: [WeavrComponents.SecureTextField])
+}
+@_hasMissingDesignatedInitializers open class UXComponetGroup : WeavrComponents.UXComponetGroupProtocol {
+  public var data: [Swift.String]
+  public var components: [WeavrComponents.SecureTextField]
+  public func addComponents(components: [WeavrComponents.SecureTextField])
+  public func removeComponents(components: [WeavrComponents.SecureTextField])
+  public func createToken(fieldKeys: [Swift.String], callBack: @escaping (WeavrComponents.WeavrResult<[Swift.String : Swift.String?], WeavrComponents.ErrorResponse>) -> Swift.Void)
+  public func match() -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class SecureLabel : UIKit.UILabel {
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func enableCopyTextToClipboardOnClick(enabled: Swift.Bool, completion: ((_ message: Swift.String) -> Swift.Void)?)
+  @_Concurrency.MainActor(unsafe) open func enableCopyTextToClipboardOnLongClick(enabled: Swift.Bool, completion: ((_ message: Swift.String) -> Swift.Void)?)
+  @objc deinit
+}
+open class KeychainSwift {
+  open var lastResultCode: Darwin.OSStatus
+  open var accessGroup: Swift.String?
+  open var synchronizable: Swift.Bool
+  public init()
+  public init(keyPrefix: Swift.String)
+  @discardableResult
+  open func set(_ value: Swift.String, forKey key: Swift.String, withAccess access: WeavrComponents.KeychainSwiftAccessOptions? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Foundation.Data, forKey key: Swift.String, withAccess access: WeavrComponents.KeychainSwiftAccessOptions? = nil) -> Swift.Bool
+  @discardableResult
+  open func set(_ value: Swift.Bool, forKey key: Swift.String, withAccess access: WeavrComponents.KeychainSwiftAccessOptions? = nil) -> Swift.Bool
+  open func get(_ key: Swift.String) -> Swift.String?
+  open func getData(_ key: Swift.String, asReference: Swift.Bool = false) -> Foundation.Data?
+  open func getBool(_ key: Swift.String) -> Swift.Bool?
+  @discardableResult
+  open func delete(_ key: Swift.String) -> Swift.Bool
+  public var allKeys: [Swift.String] {
+    get
+  }
+  @discardableResult
+  open func clear() -> Swift.Bool
+  @objc deinit
+}
+public struct KeychainSwiftConstants {
+  public static var accessGroup: Swift.String {
+    get
+  }
+  public static var accessible: Swift.String {
+    get
+  }
+  public static var attrAccount: Swift.String {
+    get
+  }
+  public static var attrSynchronizable: Swift.String {
+    get
+  }
+  public static var klass: Swift.String {
+    get
+  }
+  public static var matchLimit: Swift.String {
+    get
+  }
+  public static var returnData: Swift.String {
+    get
+  }
+  public static var valueData: Swift.String {
+    get
+  }
+  public static var returnReference: Swift.String {
+    get
+  }
+  public static var returnAttributes: Swift.String {
+    get
+  }
+  public static var secMatchLimitAll: Swift.String {
+    get
+  }
+}
+public enum KeychainSwiftAccessOptions {
+  case accessibleWhenUnlocked
+  case accessibleWhenUnlockedThisDeviceOnly
+  case accessibleAfterFirstUnlock
+  case accessibleAfterFirstUnlockThisDeviceOnly
+  case accessibleWhenPasscodeSetThisDeviceOnly
+  public static func == (a: WeavrComponents.KeychainSwiftAccessOptions, b: WeavrComponents.KeychainSwiftAccessOptions) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class SecurePasscodeField : WeavrComponents.SecureTextField {
+  @_Concurrency.MainActor(unsafe) open func setup()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) open class SecureCardPinField : WeavrComponents.SecureTextField {
+  @_Concurrency.MainActor(unsafe) open func setup()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+public class ConfigElements {
+  final public let text: Swift.String?
+  final public let textSize: Swift.Float?
+  final public let textColor: UIKit.UIColor?
+  final public let font: UIKit.UIFont?
+  final public let backgroundColor: UIKit.UIColor?
+  public init(text: Swift.String? = nil, textSize: Swift.Float? = nil, textColor: UIKit.UIColor? = nil, font: UIKit.UIFont? = nil, backgroundColor: UIKit.UIColor? = nil)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class ErrorResponse : Swift.Codable {
+  final public let code: Swift.Int?
+  final public let message: Swift.String?
+  final public let body: Swift.String?
+  @objc deinit
+  open func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
+}
+extension WeavrComponents.WeavrPSASharedStatus : Swift.Equatable {}
+extension WeavrComponents.WeavrPSASharedStatus : Swift.Hashable {}
+extension WeavrComponents.WeavrPSASharedStatus : Swift.RawRepresentable {}
+extension WeavrComponents.SecureFieldType : Swift.Equatable {}
+extension WeavrComponents.SecureFieldType : Swift.Hashable {}
+extension WeavrComponents.PsaENV : Swift.Equatable {}
+extension WeavrComponents.PsaENV : Swift.Hashable {}
+extension WeavrComponents.ENV : Swift.Equatable {}
+extension WeavrComponents.ENV : Swift.Hashable {}
+extension WeavrComponents.KeychainSwiftAccessOptions : Swift.Equatable {}
+extension WeavrComponents.KeychainSwiftAccessOptions : Swift.Hashable {}
